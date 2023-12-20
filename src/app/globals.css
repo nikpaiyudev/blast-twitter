@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.linear-background {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 20, 12, 0.24) 27.54%,
+    rgba(17, 20, 12, 0.37) 50.11%,
+    rgba(17, 20, 12, 0.63)
+  );
+}
