@@ -7,7 +7,7 @@ export default function Home() {
     <div className='container m-auto p-20 linear-background h-screen'>
       <Header />
       <Twitter />
-      <Leaderboard  />
+      <Leaderboard />
     </div>
 
   )
