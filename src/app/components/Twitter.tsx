@@ -54,7 +54,7 @@ const Twitter = () => {
             </RenderIf>
             <RenderIf isTrue={!isLoading && Boolean(twitterUser)}>
                 <div className="w-full flex justify-center items-center">
-                    <span className="text-3xl text-center italic">Your X/Twitter handle,<span className="text-[#FFFF33]"> {twitterUser?.username}</span>, has been reserved for an <br /><span className="text-[#FFFF33]"> onBlast.eth </span>subdomain!</span>
+                    <span className="text-5xl  text-center italic">Your X/Twitter handle,<span className="text-[#FFFF33]"> {twitterUser?.username}</span>, has been reserved for an <br /><span className="text-[#FFFF33]"> onBlast.eth </span>subdomain!</span>
                 </div>
             </RenderIf>
         </div>
